@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+.sbtn {
+  background-color: pink;
+  color: black;
+  padding: 5px 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-left: 35%;
+  font: bold;
+}
+.sbtn:hover {
+  opacity: 1;
+}
+
+.container {
+  padding: 16px;
+}
+input[type="text"],
+select[type="sex"],
+input[type="date"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type="text"]:focus,
+select[type="sex"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.resetbtn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  opacity: 0.9;
+  border-radius: 1rem;
+}
+.resetbtn:hover {
+  opacity: 1;
+}
+.registerbtn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  opacity: 0.9;
+  border-radius: 1rem;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
